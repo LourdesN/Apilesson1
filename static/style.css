@@ -3,6 +3,12 @@ body{
   background-image: linear-gradient(to right, #D9AFD9 0%, #97D9E1 100%);
 
 }
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .p_one{
   color: black;
   font-family: verdana;
@@ -17,14 +23,14 @@ h2{
 }
 .btn{
   cursor: pointer;
-  width: 100px;
+  width: 200px;
   height:40px;
   border-radius:180px;
   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
   cursor:pointer;
-  font-style: italic;
-  font-weight: 600;
+  font-size: 16px;
   position:relative;
+  font-weight:600;
 }
 .btn:hover{
   background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #977da1 100%);
@@ -36,12 +42,6 @@ img{
 .result2{
   color: black;
   font-family: verdana;
-  font-size: 16px;
+  font-size: 18px;
   margin: 20px;
-}
-.cats{
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
