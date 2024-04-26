@@ -1,14 +1,47 @@
 body{
-  background-color: palevioletred;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(to right, #D9AFD9 0%, #97D9E1 100%);
+
 }
 .p_one{
   color: black;
   font-family: verdana;
-  font-size: 20px;
+  font-size: 16px;
+  margin:30px;
 }
 
 h2{
   color: black;
   font-family: verdana;
   font-size: 20px;
+}
+.btn{
+  cursor: pointer;
+  width: 100px;
+  height:40px;
+  border-radius:180px;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  cursor:pointer;
+  font-style: italic;
+  font-weight: 600;
+  position:relative;
+}
+.btn:hover{
+  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #977da1 100%);
+}
+img{
+  height:200px;
+  width:250px;
+}
+.result2{
+  color: black;
+  font-family: verdana;
+  font-size: 16px;
+  margin: 20px;
+}
+.cats{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
